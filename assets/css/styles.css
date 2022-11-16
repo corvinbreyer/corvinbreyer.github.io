@@ -1,0 +1,18 @@
+@font-face{font-family:Regular;src:url("../font/barlow/Barlow-Regular.ttf")}@font-face{font-family:SemiBold;src:url("../font/barlow/Barlow-SemiBold.ttf")}@font-face{font-family:ExtraBold;src:url("../font/barlow/Barlow-ExtraBold.ttf")}:root{
+    
+    /*
+    Hier können Schriftgrößen, Abstände etc. angepasst werden
+    Zahlen sollten immer positiv sein
+    Dezimalzahlen werden mit Punkt geschrieben
+    Standardwerte sind: 6; 7; 11.5; 7; 14; 9; 5
+    */
+    
+    --schriftgroesse-klein: 6;
+    --schriftgroesse-standard: 7;
+    --schriftgroesse-gross: 11.5;
+    --abstand-zur-mitte: 7;
+    --zeilenabstand: 14;
+    --vertikaler-abstand: 9;
+    --textschatten-groesse: 5;
+
+}*{margin:0;padding:0}html{overflow:hidden;font-family:SemiBold}body{background-image:url("../img/pause.png");background-size:cover;background-attachment:fixed;background-position:center;background-color:#000}table{color:#fff;font-size:calc(var(--schriftgroesse-standard)*1vw);width:100%;padding:0;margin:0;position:absolute;top:50%;-ms-transform:translateY(-50%);transform:translateY(-50%)}.gelb{color:#ffed00;font-size:calc(var(--schriftgroesse-gross)*1vw);font-family:ExtraBold;text-transform:uppercase;line-height:calc(var(--zeilenabstand)*1vh);}.klein{font-size:calc(var(--schriftgroesse-klein)*1vw);}.abstand{height:calc(var(--vertikaler-abstand)*1vh);}td{padding-left:calc(var(--abstand-zur-mitte)*1vw);text-shadow:0 0 calc(var(--textschatten-groesse)*10px)#000}td:first-child{text-align:right;padding-right:calc(var(--abstand-zur-mitte)*1vw);width:50%}
