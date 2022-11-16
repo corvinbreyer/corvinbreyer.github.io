@@ -1,7 +1,1 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+<!DOCTYPE html><html style="background-color:#151822;color:#fff"><body onload="startTime()"><div id="txt" style="font-family:sans-serif;font-weight:bold;font-size:60px;text-align:center;margin-top:25px;"></div><script>function startTime(){const today=new Date();let h=today.getHours();let m=today.getMinutes();let s=today.getSeconds();m=checkTime(m);s=checkTime(s);document.getElementById('txt').innerHTML=h+":"+m+":"+s;setTimeout(startTime,1000);}function checkTime(i){if(i<10){i="0"+i};return i;}</script></body></html>
