@@ -1,4 +1,3 @@
-
 /* --------------------------------------- */
 /* ------- HIER WERTE BEARBEITEN! -------- */
 /* --------------------------------------- */
@@ -41,4 +40,37 @@ let datum_4 = "Mittwoch, 25.1.2023, 20 Uhr";
 
 
 
-pause += "";document.getElementById('cKiwdauer').innerHTML = pause_dauer;beginn += "";document.getElementById('cKiwdauerb').innerHTML = pause_dauer;document.getElementById('cKiwdauerc').innerHTML = pause_dauer;pause = pause.substring(0, 2) + ":" + pause.substring(2);document.getElementById('cKiwpause').innerHTML = pause;document.getElementById('cKiwpauseb').innerHTML = pause;document.getElementById('cKiwpausec').innerHTML = pause;beginn = beginn.substring(0, 2) + ":" + beginn.substring(2);ende += "";document.getElementById('dJFSstart').innerHTML = beginn;document.getElementById('dJFSstartb').innerHTML = beginn;ende = ende.substring(0, 2) + ":" + ende.substring(2);document.getElementById('cKiwende').innerHTML = ende;document.getElementById('cKiwendeb').innerHTML = ende;document.getElementById('cKiwendec').innerHTML = ende;document.getElementById('dJFStitel').innerHTML = name;document.getElementById('dJFStitelb').innerHTML = name;document.getElementById('dJFSsub').innerHTML = untertitel;document.getElementById('dJFSsubb').innerHTML = untertitel;document.getElementById('akat').innerHTML = kategorie_1;document.getElementById('atitel').innerHTML = titel_1;document.getElementById('adate').innerHTML = datum_1;document.getElementById('nYDakat').innerHTML = kategorie_2;document.getElementById('nYDatitel').innerHTML = titel_2;document.getElementById('nYDadate').innerHTML = datum_2;document.getElementById('upaHkat').innerHTML = kategorie_3;document.getElementById('upaHtitel').innerHTML = titel_3;document.getElementById('upaHdate').innerHTML = datum_3;document.getElementById('jIVDkat').innerHTML = kategorie_4;document.getElementById('jIVDtitel').innerHTML = titel_4;document.getElementById('jIVDdate').innerHTML = datum_4;
+pause += "";
+beginn += "";
+ende += "";
+pause = pause.substring(0, 2) + ":" + pause.substring(2);
+beginn = beginn.substring(0, 2) + ":" + beginn.substring(2);
+ende = ende.substring(0, 2) + ":" + ende.substring(2);
+
+document.getElementById('cKiwdauer').innerHTML = 20;
+document.getElementById('cKiwdauerb').innerHTML = 20;
+document.getElementById('cKiwdauerc').innerHTML = 20;
+document.getElementById('cKiwpause').innerHTML = pause;
+document.getElementById('cKiwpauseb').innerHTML = pause;
+document.getElementById('cKiwpausec').innerHTML = pause;
+document.getElementById('dJFSstart').innerHTML = beginn;
+document.getElementById('dJFSstartb').innerHTML = beginn;
+document.getElementById('cKiwende').innerHTML = ende;
+document.getElementById('cKiwendeb').innerHTML = ende;
+document.getElementById('cKiwendec').innerHTML = ende;
+document.getElementById('dJFStitel').innerHTML = name;
+document.getElementById('dJFStitelb').innerHTML = name;
+document.getElementById('dJFSsub').innerHTML = untertitel;
+document.getElementById('dJFSsubb').innerHTML = untertitel;
+document.getElementById('akat').innerHTML = kategorie_1;
+document.getElementById('atitel').innerHTML = titel_1;
+document.getElementById('adate').innerHTML = datum_1;
+document.getElementById('nYDakat').innerHTML = kategorie_2;
+document.getElementById('nYDatitel').innerHTML = titel_2;
+document.getElementById('nYDadate').innerHTML = datum_2;
+document.getElementById('upaHkat').innerHTML = kategorie_3;
+document.getElementById('upaHtitel').innerHTML = titel_3;
+document.getElementById('upaHdate').innerHTML = datum_3;
+document.getElementById('jIVDkat').innerHTML = kategorie_4;
+document.getElementById('jIVDtitel').innerHTML = titel_4;
+document.getElementById('jIVDdate').innerHTML = datum_4;
