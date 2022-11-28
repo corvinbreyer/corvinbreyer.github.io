@@ -1,37 +1,37 @@
-let
+
 /* --------------------------------------- */
 /* ------- HIER WERTE BEARBEITEN! -------- */
 /* --------------------------------------- */
 
 
 // Veranstaltung und Pause
-name = "Veranstaltungsnams",
-untertitel = "Ein cooler Untertitel des Programms",
-beginn = 2000,
-pause = 2115,
-pause_dauer = 20,
-ende = 2230,
+let name = "Veranstaltungsnams";
+let untertitel = "Ein cooler Untertitel des Programms";
+let beginn = 2000;
+let pause = 2115;
+let pause_dauer = 20;
+let ende = 2230;
 
 
 // Weitere Veranstaltungen #1
-kategorie_1 = "Kabarett & Comedy",
-titel_1 = "Toller Titel der Vorstellung",
-datum_1 = "Mittwoch, 25.1.2023, 20 Uhr",
+let kategorie_1 = "Kabarett & Comedy";
+let titel_1 = "Toller Titel der Vorstellung";
+let datum_1 = "Mittwoch, 25.1.2023, 20 Uhr";
 
 // Weitere Veranstaltungen #2
-kategorie_2 = "Kabarett & Comedy",
-titel_2 = "Toller Titel der Vorstellung",
-datum_2 = "Mittwoch, 25.1.2023, 20 Uhr",
+let kategorie_2 = "Kabarett & Comedy";
+let titel_2 = "Toller Titel der Vorstellung";
+let datum_2 = "Mittwoch, 25.1.2023, 20 Uhr";
 
 // Weitere Veranstaltungen #3
-kategorie_3 = "Kabarett & Comedy",
-titel_3 = "Toller Titel der Vorstellung",
-datum_3 = "Mittwoch, 25.1.2023, 20 Uhr",
+let kategorie_3 = "Kabarett & Comedy";
+let titel_3 = "Toller Titel der Vorstellung";
+let datum_3 = "Mittwoch, 25.1.2023, 20 Uhr";
 
 // Weitere Veranstaltungen #4
-kategorie_4 = "Kabarett & Comedy",
-titel_4 = "Toller Titel der Vorstellung",
-datum_4 = "Mittwoch, 25.1.2023, 20 Uhr";
+let kategorie_4 = "Kabarett & Comedy";
+let titel_4 = "Toller Titel der Vorstellung";
+let datum_4 = "Mittwoch, 25.1.2023, 20 Uhr";
 
 
 /* --------------------------------------- */
