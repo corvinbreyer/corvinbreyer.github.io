@@ -1,0 +1,1 @@
+var n=0,s=document.getElementsByClassName("slide");setInterval(function(){for(var i=0;i<s.length;i++){s[i].style.opacity=0}n=(n!=s.length-1)?n+1:0;s[n].style.opacity=1},10000);
