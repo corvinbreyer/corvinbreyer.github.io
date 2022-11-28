@@ -10,7 +10,7 @@ let untertitel = "Ein cooler Untertitel des Programms";
 let beginn = 2800;
 let pause = 2915;
 let pause_dauer = 20;
-let ende = 2230;
+let ende = 2730;
 
 
 // Weitere Veranstaltungen #1
