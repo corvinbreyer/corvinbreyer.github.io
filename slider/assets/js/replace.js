@@ -7,7 +7,7 @@
 // Veranstaltung und Pause
 let name = "Veranstaltungsnams";
 let untertitel = "Ein cooler Untertitel des Programms";
-let beginn = 2000;
+let beginn = 2800;
 let pause = 2115;
 let pause_dauer = 20;
 let ende = 2230;
