@@ -1,1 +1,100 @@
-<div class="slide intro"> <p id="GpdEwik" class="head">Willkommen zu</p> <div class="tablec"> <div class="core"> <p class="titel" id="dJFStitel">Veranstaltung</p> <p class="sub" id="dJFSsub"></p> </div> </div> <p class="zeit">Beginn um <span id="dJFSstart">20:00</span> Uhr</p></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpause">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauer">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwende">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="akat">Anderes</p> <p class="titel" id="atitel">Veranstaltung</p> <p class="date" id="adate">Demnächst</p> </div> </div> </div></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="nYDakat">Anderes</p> <p class="titel" id="nYDatitel">Veranstaltung</p> <p class="date" id="nYDadate">Demnächst</p> </div> </div> </div></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpauseb">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauerb">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwendeb">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide intro"> <p id="uNnKwik" class="head">Willkommen zu</p> <div class="tablec"> <div class="core"> <p class="titel" id="dJFStitelb">Veranstaltung</p> <p class="sub" id="dJFSsubb"></p> </div> </div> <p class="zeit">Beginn um <span id="dJFSstartb">20:00</span> Uhr</p></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="upaHkat">Anderes</p> <p class="titel" id="upaHtitel">Veranstaltung</p> <p class="date" id="upaHdate">Demnächst</p> </div> </div> </div></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpausec">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauerc">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwendec">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="jIVDkat">Anderes</p> <p class="titel" id="jIVDtitel">Veranstaltung</p> <p class="date" id="jIVDdate">Demnächst</p> </div> </div> </div></div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+
+
+
+    <!---- ERSTES SET WIRD GEZEIGT ---->
+    <div id="Veranstaltung"></div>
+    <div id="Standard"></div>
+
+    <!---- VERANSTALTUNG ---->
+    <p id="Willkommen">Willkommen zu</p>
+    <p id="Name">Veranstaltungsname</p>
+    <p id="Untertitel">Ein cooler Untertitel</p>
+    <p id="Beginn">26:00</p>
+    <p id="Ende">28:00</p>
+
+    <!---- PAUSE ---->
+    <p id="Pause_Beginn">27:00</p>
+    <p id="Pause_Dauer">20</p>
+
+    <!---- WEITERE VERANSTALTUNGEN ---->
+    <p id="Name_1">1Toller Titel der Vorstellung</p>
+    <p id="Kategorie_1">1Kabarett & Comedy</p>
+    <p id="Datum_1">1Mittwoch, 25.1.2023, 20 Uhr</p>
+    <p id="Name_2">2Toller Titel der Vorstellung</p>
+    <p id="Kategorie_2">2Kabarett & Comedy</p>
+    <p id="Datum_2">2Mittwoch, 25.1.2023, 20 Uhr</p>
+    <p id="Name_3">3Toller Titel der Vorstellung</p>
+    <p id="Kategorie_3">3Kabarett & Comedy</p>
+    <p id="Datum_3">3Mittwoch, 25.1.2023, 20 Uhr</p>
+    <p id="Name_4">4Toller Titel der Vorstllung</p>
+    <p id="Kategorie_4">4Kabarett & Comedy</p>
+    <p id="Datum_4">4Mittwoch, 25.1.2023, 20 Uhr</p>
+
+    <!---- WEITERE EINSTELLUNGEN ---->
+    <div id="Folien_Anzeigedauer_Sekunden">9</div>
+    <div id="FolienAnzahl_Standard_9">4</div>
+
+
+
+
+    <script>
+        document.getElementById("Standard").innerHTML = ('<h1 style="color: aliceblue">hello world</h1>');
+        document.getElementById("Veranstaltung").innerHTML = ('<div class="slide intro"> <p id="GpdEwik" class="head">Willkommen zu</p> <div class="tablec"> <div class="core"> <p class="titel" id="dJFStitel">Veranstaltung</p> <p class="sub" id="dJFSsub"></p> </div> </div> <p class="zeit">Beginn um <span id="dJFSstart">20:00</span> Uhr</p></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpause">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauer">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwende">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="akat">Anderes</p> <p class="titel" id="atitel">Veranstaltung</p> <p class="date" id="adate">Demnächst</p> </div> </div> </div></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="nYDakat">Anderes</p> <p class="titel" id="nYDatitel">Veranstaltung</p> <p class="date" id="nYDadate">Demnächst</p> </div> </div> </div></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpauseb">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauerb">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwendeb">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide intro"> <p id="uNnKwik" class="head">Willkommen zu</p> <div class="tablec"> <div class="core"> <p class="titel" id="dJFStitelb">Veranstaltung</p> <p class="sub" id="dJFSsubb"></p> </div> </div> <p class="zeit">Beginn um <span id="dJFSstartb">20:00</span> Uhr</p></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="upaHkat">Anderes</p> <p class="titel" id="upaHtitel">Veranstaltung</p> <p class="date" id="upaHdate">Demnächst</p> </div> </div> </div></div><div class="slide pause"> <table> <tr class="gelb"> <td> <p>Pause</p> </td> <td> <p id="cKiwpausec">21:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> <td class="klein"> <p>(<span id="cKiwdauerc">20</span> Minuten)</p> </td> </tr> <tr class="abstand"></tr> <tr class="gelb"> <td> <p>Ende</p> </td> <td> <p id="cKiwendec">22:00</p> </td> </tr> <tr> <td> <p>um ca.</p> </td> </tr> </table></div><div class="slide next"> <div class="content"> <p class="head">Demnächst bei uns</p> <div class="tablec"> <div class="core"> <p class="kat" id="jIVDkat">Anderes</p> <p class="titel" id="jIVDtitel">Veranstaltung</p> <p class="date" id="jIVDdate">Demnächst</p> </div> </div> </div></div>');
+        document.getElementById('GpdEwik').innerHTML = document.getElementById('Willkommen').textContent;
+        document.getElementById('uNnKwik').innerHTML = document.getElementById('Willkommen').textContent;
+        document.getElementById('akat').innerHTML = document.getElementById('Kategorie_1').textContent;
+        document.getElementById('atitel').innerHTML = document.getElementById('Name_1').textContent;
+        document.getElementById('adate').innerHTML = document.getElementById('Datum_1').textContent;
+        document.getElementById('nYDakat').innerHTML = document.getElementById('Kategorie_2').textContent;
+        document.getElementById('nYDatitel').innerHTML = document.getElementById('Name_2').textContent;
+        document.getElementById('nYDadate').innerHTML = document.getElementById('Datum_2').textContent;
+        document.getElementById('upaHkat').innerHTML = document.getElementById('Kategorie_3').textContent;
+        document.getElementById('upaHtitel').innerHTML = document.getElementById('Name_3').textContent;
+        document.getElementById('upaHdate').innerHTML = document.getElementById('Datum_3').textContent;
+        document.getElementById('jIVDkat').innerHTML = document.getElementById('Kategorie_4').textContent;
+        document.getElementById('jIVDtitel').innerHTML = document.getElementById('Name_4').textContent;
+        document.getElementById('jIVDdate').innerHTML = document.getElementById('Datum_4').textContent;
+        document.getElementById('dJFStitel').innerHTML = document.getElementById('Name').textContent;
+        document.getElementById('dJFStitelb').innerHTML = document.getElementById('Name').textContent;
+        document.getElementById('dJFSsub').innerHTML = document.getElementById('Untertitel').textContent;
+        document.getElementById('dJFSsubb').innerHTML = document.getElementById('Untertitel').textContent;
+        document.getElementById('dJFSstart').innerHTML = document.getElementById('Beginn').textContent;
+        document.getElementById('dJFSstartb').innerHTML = document.getElementById('Beginn').textContent;
+        document.getElementById('cKiwpause').innerHTML = document.getElementById('Pause_Beginn').textContent;
+        document.getElementById('cKiwpauseb').innerHTML = document.getElementById('Pause_Beginn').textContent;
+        document.getElementById('cKiwpausec').innerHTML = document.getElementById('Pause_Beginn').textContent;
+        document.getElementById('cKiwdauer').innerHTML = document.getElementById('Pause_Dauer').textContent;
+        document.getElementById('cKiwdauerb').innerHTML = document.getElementById('Pause_Dauer').textContent;
+        document.getElementById('cKiwdauerc').innerHTML = document.getElementById('Pause_Dauer').textContent;
+        document.getElementById('cKiwende').innerHTML = document.getElementById('Ende').textContent;
+        document.getElementById('cKiwendeb').innerHTML = document.getElementById('Ende').textContent;
+        document.getElementById('cKiwendec').innerHTML = document.getElementById('Ende').textContent;
+        var n = 0,
+            s = document.getElementsByClassName("slide");
+        setInterval(function() {
+            for (var i = 0; i < Math.min(s.length, (1 * document.getElementById("FolienAnzahl_Standard_9").innerHTML)); i++) {
+                s[i].style.opacity = 0
+            }
+            n = (n != s.length - 1) ? n + 1 : 0;
+            s[n].style.opacity = 1
+        }, 1000 * (document.getElementById("Folien_Anzeigedauer_Sekunden").innerHTML.replace(",", ".")));
+        setTimeout(function() {
+            window.location.reload();
+        }, (100 * document.getElementById("Folien_Anzeigedauer_Sekunden").innerHTML) * (10 * document.getElementById("FolienAnzahl_Standard_9").innerHTML));
+
+    </script>
+</body>
+
+</html>
