@@ -46,9 +46,13 @@ div.slide + div.slide {
     opacity: 0;
 }
 
+.tablec {
+    display: table;
+}
+
 .core {
-  display: flex;
-  align-items: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .slide {
